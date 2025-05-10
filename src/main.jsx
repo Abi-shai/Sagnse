@@ -1,10 +1,21 @@
-import { StrictMode } from 'react'
+import { StrictMode, Suspense } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import Site from './Site'
+import {
+  createBrowserRouter,
+  RouterProvider,
+  BrowserRouter
+} from "react-router";
+import './utils/i18n.js'
+
+import App from './app/App.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Site />
+    <Suspense fallback={<p>Chargement...</p>}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </Suspense>
   </StrictMode>
 )

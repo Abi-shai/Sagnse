@@ -1,0 +1,133 @@
+header {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--header-bg-color);
+  transition: all 350ms cubic-bezier(var(--motion-basic-config));
+
+  /* On top of the page */
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+header:hover {
+  background-color: var(--gray-color-90);
+  transition: all 350ms cubic-bezier(var(--motion-basic-config));
+
+  .logo-wrapper {
+    border: 1px solid #4C4C4C;
+    transition: all 350ms cubic-bezier(var(--motion-basic-config));
+  }
+}
+
+@media (768px>=width) {
+  header {
+    padding: 0.75rem;
+  }
+}
+
+@media (1600px<=width) {
+  header {
+    padding: 1rem 8rem;
+  }
+}
+
+
+
+
+/* Configs for the logo, left side */
+.logo-wrapper {
+  /* Layout */
+  display: flex;
+  padding: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+
+  /* Style */
+  border: 1px solid var(--header-border-color);
+
+  /* Motion */
+  transition: all 350ms cubic-bezier(var(--motion-basic-config));
+
+  img {
+    width: 53px;
+    height: 48px;
+  }
+}
+
+@media (768px>=width) {
+  .logo-wrapper {
+    padding: 0.25rem;
+    flex-direction: column;
+
+    img {
+      width: 35px;
+      height: 32px;
+    }
+  }
+}
+
+
+
+
+
+/* Navigation links configs */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  a {
+    list-style-type: none;
+    text-decoration: none;
+    transition: color 350ms cubic-bezier(var(--motion-basic-config));
+  }
+
+  a:hover {
+    color: var(--primary-color-30);
+    transition: color 350ms cubic-bezier(var(--motion-basic-config));
+  }
+}
+
+@media (768px>=width) {
+  .nav {
+    display: none;
+  }
+}
+
+
+
+
+
+/* Configs for the active page, routing NavLink*/
+.active {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--white-color);
+}
+
+
+
+
+/* Ham menu configs, Mobile state */
+.menu {
+  display: none;
+
+  svg {
+    fill: var(--gray-color-05)
+  }
+}
+
+@media (768px>=width) {
+  .menu {
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+  }
+}
