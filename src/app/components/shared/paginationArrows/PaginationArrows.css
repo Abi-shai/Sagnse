@@ -1,0 +1,43 @@
+.arrows-wrapper {
+  /* Position */
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+
+  /* Layout */
+  width: calc(100% - 64px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .arrow-style {
+    /* Layout */
+    display: flex;
+    padding: 1em .5em;
+    align-items: center;
+    gap: 0.625rem;
+    cursor: pointer;
+
+    /* Style */
+    background-color: rgba(0, 0, 0, 0.30);
+
+    /* Motion */
+    transition: all 350ms cubic-bezier(var(--motion-basic-config));
+
+    svg {
+      fill: var(--white-color);
+    }
+  }
+
+  /* State */
+  .arrow-style:hover {
+    /* Style */
+    background-color: rgba(0, 0, 0, 0.60);
+
+    /* Motion */
+    transition: all 350ms cubic-bezier(var(--motion-basic-config));
+  }
+
+}

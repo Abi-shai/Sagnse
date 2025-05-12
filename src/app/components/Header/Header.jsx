@@ -30,7 +30,7 @@ function Header() {
         <NavLink
           to="/sbs"
           className={({ isActive }) =>
-            isActive ? "active" : "body2"
+            isActive ? "active" : "nav"
           }
         >
           {t('nav.sbs')}
@@ -38,7 +38,7 @@ function Header() {
         <NavLink
           to="/WhoAreWe"
           className={({ isActive }) =>
-            isActive ? "active" : "body2"
+            isActive ? "active" : "nav"
           }
         >
           {t('nav.who_are_we')}
@@ -46,7 +46,7 @@ function Header() {
         <NavLink
           to="/ContactUs"
           className={({ isActive }) =>
-            isActive ? "active" : "body2"
+            isActive ? "active" : "nav"
           }
         >
           {t('nav.contact_us')}

@@ -34,10 +34,12 @@
   --header-bg-color: rgba(0, 0, 0, 0.25);
   --header-border-color: var(--gray-color-05);
 
-  --mobile-base-width: 460px;
+  --mobile-base-width: 768;
+  --desktop-base-width: 1600;
 
   /* Motion config */
   --motion-basic-config: .55, 0, 0, 1;
+  --motion-quick-config: 0, 0, 1, 1;
 }
 
 /* First font family setup */
@@ -59,7 +61,17 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  color: var(--gray-color-90);
+}
+
+/* Switching the values to Heading3 configs */
+@media (768px >=width) {
+  .heading1 {
+    font-family: "Public Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
 }
 
 .heading2 {
@@ -90,6 +102,14 @@
 }
 
 .body2 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav {
   font-family: Helvetica;
   font-size: 1rem;
   font-style: normal;

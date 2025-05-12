@@ -1,0 +1,56 @@
+.buttonPrimary {
+  /* Layout */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Style */
+  background: var(--primary-color-30);
+  color: var(--white-color);
+  border: none;
+
+  /* Motion */
+  transition: all 150ms cubic-bezier(var(--motion-quick-config));
+  cursor: pointer;
+}
+
+@media (768px>=width) {
+  .buttonPrimary {
+    padding: .5em .75em;
+    gap: .25em;
+  }
+}
+
+/* State */
+.buttonPrimary:hover {
+  background: var(--primary-color-60);
+  transition: all 150ms cubic-bezier(var(--motion-quick-config));
+}
+
+
+
+/* Secondary type of button */
+.buttonSecondary {
+  /* Layout */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Style */
+  border: 1px solid var(--primary-color-30);
+  color: var(--primary-color-30);
+  background: none;
+
+  /* Motion */
+  transition: all 150ms cubic-bezier(var(--motion-quick-config));
+  cursor: pointer;
+}
+
+/* State */
+.buttonSecondary:hover {
+  border: 1px solid var(--primary-color-30);
+  color: var(--white-color);
+  background: var(--primary-color-30);
+
+  transition: all 150ms cubic-bezier(var(--motion-quick-config));
+}
