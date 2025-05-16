@@ -74,44 +74,19 @@ header:hover {
 
 
 
-
-/* Navigation links configs */
-.nav {
+/* Nav layout design */
+.nav-header {
   display: flex;
   align-items: center;
   gap: 2rem;
-
-  a {
-    list-style-type: none;
-    text-decoration: none;
-    transition: color 350ms cubic-bezier(var(--motion-basic-config));
-  }
-
-  a:hover {
-    color: var(--primary-color-30);
-    transition: color 350ms cubic-bezier(var(--motion-basic-config));
-  }
 }
 
 @media (768px>=width) {
-  .nav {
+  .nav-header {
     display: none;
   }
 }
 
-
-
-
-
-/* Configs for the active page, routing NavLink*/
-.active {
-  font-family: Helvetica;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  color: var(--white-color);
-}
 
 
 

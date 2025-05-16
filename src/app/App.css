@@ -40,6 +40,7 @@
   /* Motion config */
   --motion-basic-config: .55, 0, 0, 1;
   --motion-quick-config: 0, 0, 1, 1;
+  --motion-entering-config: 0.8, 0, 0.2, 1;
 }
 
 /* First font family setup */
@@ -109,11 +110,92 @@
   line-height: normal;
 }
 
-.nav {
+
+
+
+/* CONFIGS FOR THE HEADER AND FOOTER INTERACTIONS */
+
+
+/* HEADER */
+/* Inactive header links */
+.links-header {
+  /* Style */
   font-family: Helvetica;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   color: var(--gray-color-10);
+
+  /* Typo */
+  list-style-type: none;
+  text-decoration: none;
+
+  /* Motion */
+  transition: color 350ms cubic-bezier(var(--motion-basic-config));
+
+
+  /* Interactions */
+  &:hover {
+    color: var(--primary-color-30);
+    transition: color 350ms cubic-bezier(var(--motion-basic-config));
+  }
+}
+
+
+
+
+
+/* Active header links */
+.active-links-header {
+  /* Style */
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--white-color);
+
+  /* Typo */
+  list-style-type: none;
+  text-decoration: none;
+
+  /* Motion */
+  transition: color 350ms cubic-bezier(var(--motion-basic-config));
+
+  /* Interactions */
+  &:hover {
+    color: var(--primary-color-30);
+    transition: color 350ms cubic-bezier(var(--motion-basic-config));
+  }
+}
+
+
+
+
+
+/* FOOTER */
+/* Default and hovered state */
+.links-footer {
+  /* Style */
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--gray-color-10);
+
+  /* Typo */
+  list-style-type: none;
+  text-decoration: none;
+
+  /* Motion */
+  transition: color 350ms cubic-bezier(var(--motion-basic-config));
+
+
+  /* Interactions */
+  &:hover {
+    color: var(--primary-color-30);
+    transition: color 350ms cubic-bezier(var(--motion-basic-config));
+  }
 }

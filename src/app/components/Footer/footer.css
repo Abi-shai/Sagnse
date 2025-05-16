@@ -1,0 +1,160 @@
+footer {
+  display: flex;
+  padding: 2rem 1rem;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  /* Motion */
+  transition: all 350ms cubic-bezier(var(--motion-basic-config));
+
+  background-color: var(--black-color);
+
+  .left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    min-width: 320px;
+
+    .logo-and-language-switcher-wrapper {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      align-self: stretch;
+
+      .logo-footer {
+
+        display: flex;
+        padding: 0.5rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.625rem;
+        border: 1px solid var(--gray-color-60);
+
+        img {
+          width: 53px;
+          height: 48px;
+        }
+
+      }
+
+      .slogan-and-language-switcher {
+        color: var(--gray-color-05);
+        text-align: center;
+        font-family: "Public Sans";
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+
+        /* Layout */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+
+        .switcher-bg {
+          background: red;
+        }
+      }
+    }
+
+    .copyrights {
+      color: var(--Gray-30, #808080);
+      font-family: Helvetica;
+      font-size: 0.75rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+  }
+
+  /* Showing divider */
+  .divider {
+    display: none;
+    height: 1px;
+    width: 100%;
+    background-color: var(--gray-color-90);
+  }
+
+
+
+  .footer-nav {
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    flex: 1 0 0;
+    width: 100%;
+
+    .footer-nav-set {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+      flex: 1 0 0;
+
+      .footer-nav-set-heading {
+        color: var(--gray-color-05);
+        font-family: Helvetica;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      .links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        align-self: stretch;
+      }
+
+    }
+  }
+}
+
+/* BIG DESKTOP VIEW */
+@media (1600px<=width) {
+  footer {
+    padding: 2rem 8rem;
+    transition: all 350ms cubic-bezier(var(--motion-basic-config));
+  }
+}
+
+
+/* FOR MOBILE VIEW */
+@media (768px>=width) {
+  footer {
+    /* Layour */
+    flex-direction: column-reverse;
+    padding: 1.5rem 0.75rem;
+    gap: 1.25em;
+
+    .left-content {
+      .logo-and-language-switcher-wrapper {
+        .logo-footer {
+          img {
+            width: 35px;
+            height: 32px;
+          }
+        }
+      }
+    }
+
+    .divider {
+      display: block;
+    }
+
+    .footer-nav {
+      flex-direction: column;
+      gap: 1.25rem;
+
+      .footer-nav-set {
+        gap: .5em;
+      }
+    }
+  }
+}

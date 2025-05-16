@@ -6,6 +6,7 @@ import {
 import useLocalizeDocumentAttributes from "../utils/useLocalizeDocumentAttribute";
 
 import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
 import Home from "./routes/Home";
 import SagnseCollection from "./routes/SagnseCollection";
 import SagnseCouture from "./routes/SagnseCouture";
@@ -42,6 +43,7 @@ function App() {
         <Route path="/contactUs" element={<ContactUs />} />
 
       </Routes>
+      <Footer />
     </>
   )
 }

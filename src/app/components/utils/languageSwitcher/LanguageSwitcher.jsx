@@ -5,13 +5,13 @@ import { supportedLanguages } from "../../../../utils/i18n";
 
 import './LanguageSwitcher.css';
 
-function LanguageSwitcher() {
+function LanguageSwitcher({ isFooter }) {
 
   const { i18n } = useTranslation();
 
   return (
 
-    <div className="language-switcher">
+    <div className={isFooter ? 'language-switcher-footer' : 'language-switcher-header'}>
 
       <LanguageIcon />
 
