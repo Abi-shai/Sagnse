@@ -3,6 +3,7 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 
   /* Style */
   background: var(--primary-color-30);

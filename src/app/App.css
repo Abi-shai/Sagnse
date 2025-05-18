@@ -29,10 +29,16 @@
   --white-color: #FFFFFF;
   --black-color: #000000;
 
+  --section-purple-color: rgba(239, 230, 253, 0.50);
+
   --gradient-color-linear: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), linear-gradient(268deg, var(--primary-color-30, #FEC7DF) -27.31%, #64C6CF 13.78%, #EEC643 48.03%, var(--secondary-color-30, #9654F4) 91.4%);
   --gradient-color-radial: radial-gradient(150.41% 88.89% at 67.1% 8.5%, var(--primary-color-30, rgba(254, 199, 223, 0.40)) 0%, rgba(100, 198, 207, 0.40) 34.62%, rgba(238, 198, 67, 0.40) 63.46%, var(--secondary-color-30, rgba(150, 84, 244, 0.40)) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
   --header-bg-color: rgba(0, 0, 0, 0.25);
   --header-border-color: var(--gray-color-05);
+  --overlay-purple-color: rgba(150, 84, 244, 0.25);
+  --overlay-black-color-60: rgba(0, 0, 0, 0.6);
+  --overlay-black-color—20: rgba(0, 0, 0, 0.2);
+  --overlay-black-color—0: rgba(0, 0, 0, 0);
 
   --mobile-base-width: 768;
   --desktop-base-width: 1600;
@@ -84,11 +90,22 @@
   color: var(--gray-color-90);
 }
 
+/* Switchinbg H2 values to H3 */
+@media (768px >=width) {
+  .heading2 {
+    font-family: 'Public Sans';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
 .heading3 {
   font-family: 'Public Sans';
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: normal;
   color: var(--gray-color-90);
 }
@@ -100,6 +117,17 @@
   font-weight: 400;
   line-height: normal;
   color: var(--gray-color-90);
+}
+
+/* Switching B1 to B2 for mobile */
+@media (768px >=width) {
+  .body1 {
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 }
 
 .body2 {

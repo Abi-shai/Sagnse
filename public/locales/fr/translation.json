@@ -1,4 +1,9 @@
 {
+  "sbs_catalog": {
+    "sagnse_collection": "Sagnse Collection",
+    "sagnse_couture": "Sagnse Couture",
+    "sagnse_x_miss_jah": "Sagnse X Miss Jah"
+  },
   "page_title": "Sagnse, votre partenaire beauté",
   "nav": {
     "home": "Accueil",
@@ -9,6 +14,19 @@
   "hero_section": {
     "pitch": "LA BEAUTÉ AFRICAINE EXPRIMÉE À TRAVERS LES CHEVEUX",
     "cta": "Découvrez comment"
+  },
+  "sbsSection": {
+    "heading": "Sagnse Beauty Supply",
+    "description": "Vous cherchez à refaire votre look, de façon simple et rapide ? Sagnse Beauty Supply est fait pour vous."
+  },
+  "how_they_look_with_us": {
+    "heading": "Elles respendissent avec nous",
+    "description": "Des personnalités réparties dans diverses régions du monde, de différents industries, resplendissent avec nous !"
+  },
+  "who_are_we": {
+    "heading": "Nos origines",
+    "description": "Plus qu'une marque et un salon de coiffure, Sagnse se définit comme un style de vie, celui d'une seule adresse, de multiples choix, services et produits. Alors, Mesdames, découvrez une offre complète et unique, inspirée des traditions africaines, pour tous vos rituels beauté.",
+    "cta": "Découvrez nos origines"
   },
   "footer": {
     "1": {

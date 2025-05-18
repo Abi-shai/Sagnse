@@ -3,22 +3,15 @@ import ArrowRight from '../../../../assets/icons/chevronRight.svg?react'
 
 import './paginationArrows.css';
 
-const PaginationArrows = (index, imageUrl) => {
-
-  const showPreviousMedia = (imageUrl) => {
-    setImageIndex((index) => {
-      if (index === 0) return imageUrl.length - 1
-      return index - 1
-    })
-  }
+const PaginationArrows = ({ onClickLeft, onClickRight }) => {
 
   return (
     <div className="arrows-wrapper">
       <div className="arrow-style">
-        <ArrowLeft onClick={showPreviousMedia(index, imageUrl)} />
+        <ArrowLeft onClick={onClickLeft} />
       </div>
       <div className="arrow-style">
-        <ArrowRight />
+        <ArrowRight onClick={onClickRight} />
       </div>
     </div>
   )

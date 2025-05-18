@@ -1,0 +1,38 @@
+.celeb-wrapper {
+  position: relative;
+
+  display: flex;
+  min-width: 36em;
+  max-height: 36em;
+  width: 100%;
+  align-items: center;
+
+
+  /* Motion */
+  transition: all 500ms cubic-bezier(var(--motion-entering-config));
+
+  &:hover {
+    .celeb-overlay {
+      background-color: var(--overlay-black-color—0);
+      transition: all 350ms cubic-bezier(var(--motion-basic-config));
+    }
+  }
+
+  .celeb-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: var(--overlay-black-color—20);
+
+    transition: all 350ms cubic-bezier(var(--motion-basic-config));
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

@@ -1,4 +1,7 @@
 {
+  "sbs_catalog": {
+    "sagnse_collection": "Sagnse Collection"
+  },
   "page_title": "Sagnse, your beauty partner",
   "nav": {
     "home": "Home",
@@ -9,6 +12,19 @@
   "hero_section": {
     "pitch": "AFRICAN BEAUTY EXPRESSED THROUGH HAIRS",
     "cta": "Discover now"
+  },
+  "sbsSection": {
+    "heading": "Sagnse Beauty Supply",
+    "description": "Looking for a quick, easy, and customizable style ? Sagnse Beauty Supply is made for you."
+  },
+  "how_they_look_with_us": {
+    "heading": "How they pop with us",
+    "description": "Figures from all around the globe, from various industries, are shining with us !"
+  },
+  "who_are_we": {
+    "heading": "Who are we",
+    "description": "More than a brand and a hair salon, as Sagnse, we defines ourselves as a lifestyle, that of 1 address, several choices, services and products. So ladies, please experience a complete, unique offer inspired by African traditions for all your beauty rituals.",
+    "cta": "More about ourselves"
   },
   "footer": {
     "1": {
