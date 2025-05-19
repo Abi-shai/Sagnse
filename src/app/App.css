@@ -39,6 +39,8 @@
   --overlay-black-color-60: rgba(0, 0, 0, 0.6);
   --overlay-black-color—20: rgba(0, 0, 0, 0.2);
   --overlay-black-color—0: rgba(0, 0, 0, 0);
+  --overlay-instagram-color: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), radial-gradient(150.41% 88.89% at 67.1% 8.5%, var(--primary-color-30, rgba(254, 199, 223, 0.40)) 0%, rgba(100, 198, 207, 0.40) 34.62%, rgba(238, 198, 67, 0.40) 63.46%, var(--secondary-color-30, rgba(150, 84, 244, 0.40)) 100%);
+  --overlay-instagram-hovered-color: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), radial-gradient(150.41% 88.89% at 67.1% 8.5%, var(--primary-color-30, rgba(254, 199, 223, 0.40)) 0%, rgba(100, 198, 207, 0.40) 34.62%, rgba(238, 198, 67, 0.40) 63.46%, var(--secondary-color-30, rgba(150, 84, 244, 0.40)) 100%);
 
   --mobile-base-width: 768;
   --desktop-base-width: 1600;
