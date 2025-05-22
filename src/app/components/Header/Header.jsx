@@ -5,9 +5,9 @@ import sagnseLogo from '../../../assets/sagnse.png';
 
 import LanguageSwitcher from "../utils/languageSwitcher/languageSwitcher";
 
-import './Header.css';
+import './header.css';
 
-function Header() {
+const Header = () => {
 
 
   return (
