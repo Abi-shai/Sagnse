@@ -17,7 +17,7 @@ import ContactUs from "./routes/ContactUs";
 import './App.css';
 
 
-function App() {
+const App = () => {
 
   //Fn used to add translation on the HTLM page title
   useLocalizeDocumentAttributes();
