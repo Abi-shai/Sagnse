@@ -5,7 +5,7 @@ import {
 
 import useLocalizeDocumentAttributes from "../utils/useLocalizeDocumentAttribute";
 
-import Header from "./components/header/header";
+import SiteHeader from "./components/siteHeader/siteHeader";
 import Footer from "./components/footer/footer";
 import Home from "./routes/Home";
 import SagnseCollection from "./routes/SagnseCollection";
@@ -26,7 +26,7 @@ const App = () => {
   return (
     <>
 
-      <Header />
+      <SiteHeader />
       <Routes>
 
         <Route path="/" element={<Home />} />
