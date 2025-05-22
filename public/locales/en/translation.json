@@ -30,6 +30,48 @@
     "heading": "DAMN YOU POPPIN",
     "cta": "See more on Instagram"
   },
+  "page_header": {
+    "heading": "Contact us",
+    "description": "Work with us, get in touch with us, and find us."
+  },
+  "input_fields": {
+    "first_name": {
+      "label": "First name",
+      "placeholder": ""
+    },
+    "last_name": {
+      "label": "Last name",
+      "placeholder": ""
+    },
+    "email": {
+      "label": "Mail adress",
+      "placeholder": ""
+    },
+    "details": {
+      "label": "More details",
+      "placeholder": "Would you like to give more details ?"
+    },
+    "cta_apply": "Apply"
+  },
+  "joining_partner_placeholder": "Select a profil",
+  "joining_reseller_placeholder": "Select your location",
+  "joining_partner": {
+    "name": "Partner",
+    "joining_form_field_label": "Kind of partner",
+    "options": {
+      "1": "Ambassador",
+      "2": "Ratailler",
+      "3": "Hair stylist"
+    }
+  },
+  "joining_reseller": {
+    "name": "Reseller",
+    "joining_form_field_label": "Where are you located ?",
+    "options": {
+      "1": "Senegal",
+      "2": "Other countries"
+    }
+  },
   "footer": {
     "1": {
       "header": "Sagnse"

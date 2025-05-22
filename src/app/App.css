@@ -30,6 +30,7 @@
   --black-color: #000000;
 
   --section-purple-color: rgba(239, 230, 253, 0.50);
+  --page-top-color: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), linear-gradient(268deg, var(--primary-color-30, #FEC7DF) -27.31%, #64C6CF 13.78%, #EEC643 48.03%, var(--secondary-color-60, #9654F4) 91.4%);
 
   --gradient-color-linear: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), linear-gradient(268deg, var(--primary-color-30, #FEC7DF) -27.31%, #64C6CF 13.78%, #EEC643 48.03%, var(--secondary-color-30, #9654F4) 91.4%);
   --gradient-color-radial: radial-gradient(150.41% 88.89% at 67.1% 8.5%, var(--primary-color-30, rgba(254, 199, 223, 0.40)) 0%, rgba(100, 198, 207, 0.40) 34.62%, rgba(238, 198, 67, 0.40) 63.46%, var(--secondary-color-30, rgba(150, 84, 244, 0.40)) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);

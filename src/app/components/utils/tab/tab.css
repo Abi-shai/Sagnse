@@ -1,0 +1,20 @@
+/* .tab-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+  cursor: pointer;
+
+  p {
+    padding: 0rem 0.75rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .active-indicator {
+    width: 100%;
+    height: 0.1875rem;
+  }
+} */

@@ -33,6 +33,23 @@ const HowTheyLookWithUs = () => {
   }
 
 
+  // async function getData() {
+  //   const url = "https://rose-viv-77.tiiny.site/spotOn.json";
+  //   try {
+  //     const response = await fetch(url);
+  //     if (!response.ok) {
+  //       throw new Error(`Response status: ${response.status}`);
+  //     }
+
+  //     const json = await response.json();
+  //     console.log(json);
+  //   } catch (error) {
+  //     console.error(error.message);
+  //   }
+  // }
+
+
+
   return (
     <div className="how-they-look-with-us-wrapper">
       <div className="header-and-text-wrapper">

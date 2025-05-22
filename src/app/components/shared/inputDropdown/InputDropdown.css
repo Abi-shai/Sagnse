@@ -1,0 +1,39 @@
+.input-dropdown-wrapper {
+  display: flex;
+  width: 100%;
+  min-width: 11.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+
+  label {
+    color: var(--gray-color-60, #4C4C4C);
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  select {
+    -webkit-appearance: none;
+    display: flex;
+    padding: 0.5em 1.5em 0.5em 0.75em;
+    align-items: center;
+    align-self: stretch;
+    text-overflow: ellipsis;
+
+    border: 1px solid var(--gray-color-05, #ECECEC);
+    background: rgba(236, 236, 236, 0.50);
+    /* Placeholder text color */
+    color: var(--gray-color-90);
+
+
+    transition: all 350ms cubic-bezier(var(--motion-basic-config));
+
+    .first {
+      display: none;
+    }
+  }
+}
