@@ -6,7 +6,7 @@ import {
 import useLocalizeDocumentAttributes from "../utils/useLocalizeDocumentAttribute";
 
 import SiteHeader from "./components/siteHeader/siteHeader";
-import Footer from "./components/footer/footer.jsx";
+import SiteFooter from "./components/siteFooter/siteFooter";
 import Home from "./routes/Home";
 import SagnseCollection from "./routes/SagnseCollection";
 import SagnseCouture from "./routes/SagnseCouture";
@@ -43,7 +43,7 @@ const App = () => {
         <Route path="/contactUs" element={<ContactUs />} />
 
       </Routes>
-      <Footer />
+      <SiteFooter />
     </>
   )
 }

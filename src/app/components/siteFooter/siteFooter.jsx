@@ -5,9 +5,9 @@ import LanguageSwitcher from "../utils/languageSwitcher/languageSwitcher";
 
 import Logo from '../../../assets/sagnse.png';
 
-import './footer.css';
+import './siteFooter.css';
 
-const Footer = () => {
+const SiteFooter = () => {
 
 
   return (
@@ -62,4 +62,4 @@ const Footer = () => {
 
 }
 
-export default Footer;
+export default SiteFooter;
