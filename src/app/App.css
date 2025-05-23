@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+body {
+  overscroll-behavior-y: none;
+  scroll-behavior: smooth;
+}
+
 /* Declaring global variables */
 :root {
   /* Global variables, mainly related to colors */
