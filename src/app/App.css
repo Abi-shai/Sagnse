@@ -55,7 +55,7 @@
 /* First font family setup */
 @font-face {
   font-family: "Public Sans";
-  src: url("font/public-sans.ttf");
+  src: url("/font/Public.ttf")format('truetype');
 }
 
 /* Second font family setup */
