@@ -3,7 +3,7 @@ import LanguageIcon from '../../../../assets/icons/language.svg?react';
 
 import { supportedLanguages } from "../../../../utils/i18n";
 
-import './LanguageSwitcher.css';
+import './languageSwitcher.css';
 
 function LanguageSwitcher({ isFooter }) {
 
