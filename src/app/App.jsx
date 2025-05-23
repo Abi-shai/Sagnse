@@ -13,6 +13,7 @@ import SagnseCouture from "./routes/SagnseCouture";
 import SagnseXMissJah from "./routes/SagnseXMissJah";
 import WhoAreWe from "./routes/WhoAreWe";
 import ContactUs from "./routes/ContactUs";
+import WhatsappFab from "./components/whatsappFab/whatsappFab";
 
 import './App.css';
 
@@ -44,6 +45,7 @@ const App = () => {
 
       </Routes>
       <SiteFooter />
+      <WhatsappFab />
     </>
   )
 }

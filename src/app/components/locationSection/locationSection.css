@@ -3,7 +3,7 @@
   display: flex;
   width: 100%;
   flex-direction: column;
-  justify-content: center;
+  justify-items: center;
   overflow: hidden;
   /* padding: 1.5em 8em; */
 
@@ -25,5 +25,8 @@
     justify-self: center;
     right: 0;
     left: 0;
+    top: 50%;
+    max-width: 12em;
+    text-align: center;
   }
 }
