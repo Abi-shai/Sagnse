@@ -24,5 +24,6 @@
     justify-self: center;
     right: 0;
     left: 0;
+    max-width: 9em;
   }
 }

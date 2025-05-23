@@ -42,7 +42,6 @@
     .info {
       width: 100%;
       justify-content: flex-start;
-      max-width: 9em;
     }
   }
 }
