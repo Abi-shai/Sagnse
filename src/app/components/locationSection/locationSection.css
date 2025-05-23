@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
+  padding: 1.5em 8em;
 
   img {
     height: 29.125em;
@@ -24,6 +25,5 @@
     justify-self: center;
     right: 0;
     left: 0;
-    max-width: 9em;
   }
 }
