@@ -6,7 +6,7 @@ import CelebPhoto from "./_celebPhoto/celebPhoto";
 
 import getPhotos from "./photosStack";
 
-import './howTheyLookWithUS.css';
+import './howTheyLookWithUs.css';
 
 const HowTheyLookWithUs = () => {
 
