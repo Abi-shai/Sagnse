@@ -11,7 +11,9 @@ const LocationSection = () => {
   return (
     <div className="location-section-wrapper">
       <img src={locationImage} alt="Find us here" />
-      <ButtonPrimary content='Find the location' route={locationLink} target='blank' />
+      <div className="button-wrapper">
+        <ButtonPrimary content='Find the location' route={locationLink} target='blank' />
+      </div>
     </div>
   )
 }
