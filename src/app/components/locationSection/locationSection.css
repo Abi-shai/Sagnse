@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
-  padding: 1.5em 8em;
+  /* padding: 1.5em 8em; */
 
   img {
     height: 29.125em;
