@@ -1,0 +1,28 @@
+.location-section-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+
+  img {
+    height: 29.125em;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  @media (768px >=width) {
+    img {
+      height: 20em;
+    }
+  }
+
+  a {
+    position: absolute;
+    display: flex;
+    justify-self: center;
+    right: 0;
+    left: 0;
+  }
+}
