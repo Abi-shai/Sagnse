@@ -1,7 +1,7 @@
 import ArrowLeft from '../../../../assets/icons/chevronLeft.svg?react'
 import ArrowRight from '../../../../assets/icons/chevronRight.svg?react'
 
-import './paginationArrows.css';
+import './PaginationArrows.css';
 
 const PaginationArrows = ({ onClickLeft, onClickRight }) => {
 
