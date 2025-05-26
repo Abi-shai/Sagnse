@@ -2,7 +2,7 @@ import { t } from "i18next";
 
 import PageHeader from "../components/shared/pageHeader/PageHeader";
 import WhoAreWePageSection from "../components/whoAreWePageSection/whoAreWePageSection";
-import WhoAreWeSbsSection from "../components/whoAreWeSBSSection/whoAreWeSBSsection";
+import WhoAreWeSbsSection from "../components/whoAreWeSbsSection/whoAreWeSbsSection";
 import WhoAreWeGetInTouch from "../components/getInTouchInWhoAreWe/whoAreWeGetInTouch";
 
 import firstSectionImage from '../../assets/photos/whoAreWe/1.jpeg';
