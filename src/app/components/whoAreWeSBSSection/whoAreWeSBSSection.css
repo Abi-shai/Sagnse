@@ -1,0 +1,21 @@
+.who-are-we-sbs-section {
+  display: flex;
+  padding: 1.5em 0em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625em;
+  align-self: stretch;
+
+  background: var(--gradient-color-linear);
+
+  p {
+    color: var(--white-color);
+  }
+}
+
+@media (768px >=width) {
+  .who-are-we-sbs-section {
+    padding: .75em 0em;
+  }
+}

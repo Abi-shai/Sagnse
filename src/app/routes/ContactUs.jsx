@@ -9,7 +9,7 @@ function ContactUs() {
 
   return (
     <>
-      <PageHeader heading={t('page_header.heading')} description={t('page_header.description')} />
+      <PageHeader heading={t('page_header_contact.heading')} description={t('page_header_contact.description')} />
       <ContactGivingSection />
       <OpenHoursSection />
       <LocationSection />

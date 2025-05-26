@@ -30,9 +30,13 @@
     "heading": "DAMN YOU POPPIN",
     "cta": "See more on Instagram"
   },
-  "page_header": {
-    "heading": "Contact us",
+  "page_header_contact": {
+    "heading": "CONTACT US",
     "description": "Work with us, get in touch with us, and find us."
+  },
+  "page_header_who_are_we": {
+    "heading": "WHO ARE WE",
+    "description": "Get a sense of our identify, and our origins."
   },
   "input_fields": {
     "first_name": {
@@ -72,6 +76,10 @@
       "2": "Other countries"
     }
   },
+  "who_are_we_page": {
+    "sbs_cta": "Discover the beauty supply"
+  },
+  "whatsapp_cta": "Let's chat",
   "footer": {
     "1": {
       "header": "Sagnse"

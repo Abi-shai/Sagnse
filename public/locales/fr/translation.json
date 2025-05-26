@@ -32,9 +32,13 @@
     "heading": "DAMN YOU POPPIN",
     "cta": "Découvrir plus sur Instagram"
   },
-  "page_header": {
-    "heading": "Contactez-nous",
+  "page_header_contact": {
+    "heading": "CONTACTEZ-NOUS",
     "description": "Travaillez avec nous, prenons contact, et retrouvez notre local."
+  },
+  "page_header_who_are_we": {
+    "heading": "NOS ORIGINES",
+    "description": "Découvrez notre identité et nos origines."
   },
   "input_fields": {
     "first_name": {
@@ -74,6 +78,10 @@
       "2": "Autre pays"
     }
   },
+  "who_are_we_page": {
+    "sbs_cta": "Découvrez la boutique"
+  },
+  "whatsapp_cta": "Prenons contact",
   "footer": {
     "1": {
       "header": "Sagnse"
