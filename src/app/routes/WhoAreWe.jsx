@@ -2,7 +2,7 @@ import { t } from "i18next";
 
 import PageHeader from "../components/shared/pageHeader/PageHeader";
 import WhoAreWePageSection from "../components/whoAreWePageSection/whoAreWePageSection";
-import WhoAreWeSBSSection from "../components/whoAreWeSBSSection/whoAreWeSBSsection";
+import WhoAreWeSbsSection from "../components/whoAreWeSBSSection/whoAreWeSBSsection";
 import WhoAreWeGetInTouch from "../components/getInTouchInWhoAreWe/whoAreWeGetInTouch";
 
 import firstSectionImage from '../../assets/photos/whoAreWe/1.jpeg';
@@ -38,7 +38,7 @@ const WhoAreWe = () => {
     <>
       <PageHeader heading={t('page_header_who_are_we.heading')} description={t('page_header_who_are_we.description')} />
       <WhoAreWePageSection imageSource={firstSectionImage} imageSide='left' headingContent={sectionContent.first.heading} explainingContent={sectionContent.first.explaining} />
-      <WhoAreWeSBSSection />
+      <WhoAreWeSbsSection />
       <div style={{ background: 'rgba(239, 230, 253, 0.50)' }}>
         <WhoAreWePageSection imageSource={secondSectionImage} headingContent={sectionContent.second.heading} explainingContent={sectionContent.second.explaning} imageSide='right' noButton={true} />
         <WhoAreWePageSection imageSource={thirdSectionImage} headingContent={sectionContent.third.heading} explainingContent={sectionContent.third.explaning} imageSide='left' noButton={true} />
