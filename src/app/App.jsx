@@ -5,6 +5,8 @@ import {
 
 import useLocalizeDocumentAttributes from "../utils/useLocalizeDocumentAttribute";
 
+import ScrollToTop from "../utils/resetScrolling";
+
 import SiteHeader from "./components/siteHeader/siteHeader";
 import SiteFooter from "./components/siteFooter/siteFooter";
 import Home from "./routes/Home";
@@ -22,6 +24,9 @@ const App = () => {
 
   //Fn used to add translation on the HTLM page title
   useLocalizeDocumentAttributes();
+
+  // Reset scrolling position after leaving a page
+  ScrollToTop();
 
 
   return (

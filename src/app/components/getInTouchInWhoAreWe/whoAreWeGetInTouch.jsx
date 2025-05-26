@@ -1,8 +1,8 @@
 import { ButtonPrimary } from "../shared/button/button";
 
-import './getInTouchInWhoAreWe.css';
+import './whoAreWeGetInTouch.css';
 
-const GetInTouchInWhoAreWe = () => {
+const WhoAreWeGetInTouch = () => {
   return (
     <div className="get-in-touch-in-who-are-we-wrapper">
       <div className="double-wrapper">
@@ -16,4 +16,4 @@ const GetInTouchInWhoAreWe = () => {
   )
 }
 
-export default GetInTouchInWhoAreWe;
+export default WhoAreWeGetInTouch;

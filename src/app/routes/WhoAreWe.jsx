@@ -3,7 +3,7 @@ import { t } from "i18next";
 import PageHeader from "../components/shared/pageHeader/PageHeader";
 import WhoAreWePageSection from "../components/whoAreWePageSection/whoAreWePageSection";
 import WhoAreWeSBSSection from "../components/whoAreWeSBSSection/whoAreWeSBSsection";
-import GetInTouchInWhoAreWe from "../components/getInTouchInWhoAreWe/getInTouchInWhoAreWe.jsX";
+import WhoAreWeGetInTouch from "../components/getInTouchInWhoAreWe/whoAreWeGetInTouch";
 
 import firstSectionImage from '../../assets/photos/whoAreWe/1.jpeg';
 import secondSectionImage from '../../assets/photos/whoAreWe/home.jpeg';
@@ -44,7 +44,7 @@ const WhoAreWe = () => {
         <WhoAreWePageSection imageSource={thirdSectionImage} headingContent={sectionContent.third.heading} explainingContent={sectionContent.third.explaning} imageSide='left' noButton={true} />
         <WhoAreWePageSection imageSource={fourthSectionImage} headingContent={sectionContent.fourth.heading} explainingContent={sectionContent.fourth.explaning} imageSide='right' noButton={true} />
       </div>
-      <GetInTouchInWhoAreWe />
+      <WhoAreWeGetInTouch />
     </>
   )
 
