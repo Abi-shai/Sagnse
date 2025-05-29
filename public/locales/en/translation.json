@@ -38,6 +38,14 @@
     "heading": "WHO ARE WE",
     "description": "Get a sense of our identify, and our origins."
   },
+  "page_header_sagnse_collection": {
+    "heading": "SAGNSE COLLECTION",
+    "description": "Discover our selected articles in this collection."
+  },
+  "page_header_sagnse_couture": {
+    "heading": "SAGNSE COUTURE",
+    "description": "Discover hands made articles."
+  },
   "input_fields": {
     "first_name": {
       "label": "First name",

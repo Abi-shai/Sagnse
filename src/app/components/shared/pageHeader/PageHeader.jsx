@@ -1,5 +1,3 @@
-import { t } from "i18next";
-
 import './PageHeader.css';
 
 const PageHeader = ({ heading, description }) => {

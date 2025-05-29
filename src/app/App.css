@@ -10,6 +10,8 @@ body {
   scroll-behavior: smooth;
 }
 
+
+
 /* Declaring global variables */
 :root {
   /* Global variables, mainly related to colors */
@@ -234,4 +236,14 @@ body {
     color: var(--primary-color-30);
     transition: color 350ms cubic-bezier(var(--motion-basic-config));
   }
+}
+
+
+/* Articles on the list, text style */
+.article-grouped-name {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }

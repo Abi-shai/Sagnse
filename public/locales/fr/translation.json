@@ -40,6 +40,14 @@
     "heading": "NOS ORIGINES",
     "description": "Découvrez notre identité et nos origines."
   },
+  "page_header_sagnse_collection": {
+    "heading": "SAGNSE COLLECTION",
+    "description": "Découvrez notre lot d'articles pré-sélectionnés dans cette collection."
+  },
+  "page_header_sagnse_couture": {
+    "heading": "SAGNSE COUTURE",
+    "description": "Découvrez des articles fait à la main."
+  },
   "input_fields": {
     "first_name": {
       "label": "Prénom",

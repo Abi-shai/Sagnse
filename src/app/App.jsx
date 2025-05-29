@@ -39,9 +39,9 @@ const App = () => {
 
         <Route path="/sbs" >
 
-          <Route path="sagnseCollection" element={<SagnseCollection />} />
-          <Route path="sagnseXMissJah" element={<SagnseXMissJah />} />
-          <Route path="sagnseCouture" element={<SagnseCouture />} />
+          <Route path="/sbs/sagnseCollection" element={<SagnseCollection />} />
+          <Route path="/sbs/sagnseXMissJah" element={<SagnseXMissJah />} />
+          <Route path="/sbs/sagnseCouture" element={<SagnseCouture />} />
 
         </Route>
 

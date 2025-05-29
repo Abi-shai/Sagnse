@@ -9,6 +9,12 @@ import './siteFooter.css';
 
 const SiteFooter = () => {
 
+  const socialLinks = {
+    tiktok: 'https://vm.tiktok.com/ZMMKBxLsY/',
+    facebook: 'https://www.facebook.com/share/v/18y5YPMa1i/?mibextid=wwXIfr',
+    instagram: 'https://www.instagram.com/sagnseofficial/'
+  }
+
 
   return (
     <footer>
@@ -33,6 +39,7 @@ const SiteFooter = () => {
         <div className="footer-nav-set">
           <p className="footer-nav-set-heading">SAGNSE</p>
           <div className="links">
+            <NavLink to='/' className='links-footer' >{t('nav.home')}</NavLink>
             <NavLink to='/whoAreWe' className='links-footer' >{t('nav.who_are_we')}</NavLink>
             <NavLink to='contactUs' className='links-footer'>{t('nav.contact_us')}</NavLink>
           </div>
@@ -41,18 +48,18 @@ const SiteFooter = () => {
         <div className="footer-nav-set">
           <p className="footer-nav-set-heading">SAGNSE BEAUTY SUPPLY</p>
           <div className="links">
-            <NavLink to='/sagnseCollection' className='links-footer' >Sagnse Collection</NavLink>
-            <NavLink to='sagnseCouture' className='links-footer'>Sagnse Couture</NavLink>
-            <NavLink to='sagnseXMissJah' className='links-footer'>Sagnse X Miss Jah</NavLink>
+            <NavLink to='sbs/sagnseCollection' className='links-footer' >Sagnse Collection</NavLink>
+            <NavLink to='sbs/sagnseCouture' className='links-footer'>Sagnse Couture</NavLink>
+            <NavLink to='sbs/sagnseXMissJah' className='links-footer'>Sagnse X Miss Jah</NavLink>
           </div>
 
         </div>
         <div className="footer-nav-set">
           <p className="footer-nav-set-heading">SEE OUR WORK</p>
           <div className="links">
-            <a href="https://www.instagram.com/sagnseofficial/" target="_blank" className='links-footer' >Instagram</a>
-            <a href="/" className='links-footer'>Facebook</a>
-            <a href="/" className='links-footer'>TikTok</a>
+            <a href={socialLinks.instagram} target="_blank" className='links-footer' >Instagram</a>
+            <a href={socialLinks.facebook} target="_blank" className='links-footer'>Facebook</a>
+            <a href={socialLinks.tiktok} target="_blank" className='links-footer'>TikTok</a>
           </div>
         </div>
 
