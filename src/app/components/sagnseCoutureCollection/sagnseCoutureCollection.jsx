@@ -2,16 +2,15 @@ import { useState, useEffect } from "react";
 
 import SubCategorieArticle from "../shared/subCategorieArticles/collectionSubCategorie";
 
-import './collectionCategorie.css';
+import './sagnseCoutureCollection.css';
 
-const CollectionCategorie = () => {
+const SagnseCoutureCollection = () => {
 
   // Fetching data states
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState();
 
   // Fetched data states
-  const [sagnseCoutureData, setSagnseCoutureData] = useState({});
   const [sagnseCoutureSubCategories, setSagnseCoutureSubCategories] = useState([]);
   const [sagnseCouturePhotos, setSagnseCouturePhotos] = useState([]);
 
@@ -35,13 +34,11 @@ const CollectionCategorie = () => {
 
         // All data
         const fetchedSagnseCoutureData = await body.sagnse_couture;
-        setSagnseCoutureData(fetchedSagnseCoutureData);
         setSagnseCoutureSubCategories(fetchedSagnseCoutureData.sub_categories)
-        console.log(fetchedSagnseCoutureData.sub_categories[0].articles[0].photos[0])
 
         // Photos data
-        const fetchedCouturePhotos = fetchedSagnseCoutureData.sub_categories[2].articles[0].photos;
-        setSagnseCouturePhotos(fetchedCouturePhotos);
+        // const fetchedCouturePhotos = fetchedSagnseCoutureData.sub_categories[2].articles[0].photos;
+        // setSagnseCouturePhotos(fetchedCouturePhotos);
 
       } catch (error) {
         setError(error);
@@ -124,4 +121,4 @@ const CollectionCategorie = () => {
   )
 }
 
-export default CollectionCategorie;
+export default SagnseCoutureCollection;
