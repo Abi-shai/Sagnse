@@ -2,9 +2,6 @@ import { useState, useEffect } from "react";
 
 import SubCategorieArticle from "../shared/subCategorieArticles/collectionSubCategorie";
 
-import './sagnseCollectionCollection.css';
-
-
 const SagnseCollectionCollection = () => {
 
   // Fetching data states

@@ -46,6 +46,10 @@
     "heading": "SAGNSE COUTURE",
     "description": "Discover hands made articles."
   },
+  "page_header_sagnse_x_miss_jah": {
+    "heading": "SAGNSE X MISS JAH",
+    "description": "Discover articles made in collaboration with Miss Jah."
+  },
   "input_fields": {
     "first_name": {
       "label": "First name",

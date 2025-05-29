@@ -1,6 +1,6 @@
 import { ButtonPrimary } from "../shared/button/button";
 
-import locationImage from '../../../assets/photos/locationImage/location.png';
+import locationImage from '../../../assets/photos/locationImage/contact-photo.jpeg';
 
 import './locationSection.css';
 
