@@ -48,6 +48,7 @@ const SiteHeader = () => {
             {t('nav.home')}
           </NavLink>
           <NavLink
+            to={null}
             onMouseEnter={setterIsHoveredTrue}
             onMouseLeave={setterIsHoveredFalse}
             className={({ isActive }) => isActive ? "active-links-header" : "links-header special"}

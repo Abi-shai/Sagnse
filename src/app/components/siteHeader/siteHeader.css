@@ -43,6 +43,7 @@ header {
     .catalog-wrapper-header {
       p {
         opacity: 1;
+        transition-delay: 250ms;
       }
     }
   }
