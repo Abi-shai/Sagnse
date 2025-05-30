@@ -1,6 +1,6 @@
 import { t } from "i18next";
 
-import CatalogOption from "./_catalogOption/catalogOption";
+import { CatalogOption } from "./_catalogOption/catalogOption";
 
 import firstCatalog from '../../../assets/photos/sbsSection/sbsFirst.png';
 import secondCatalog from '../../../assets/photos/sbsSection/sbsSecond.png';

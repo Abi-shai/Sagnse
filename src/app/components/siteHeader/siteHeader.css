@@ -1,17 +1,53 @@
 header {
   display: flex;
   padding: 1rem;
-  justify-content: space-between;
+  width: 100%;
   align-items: center;
   background-color: var(--header-bg-color);
-  transition: all 350ms cubic-bezier(var(--motion-basic-config));
+  flex-direction: column;
+  transition: all 150ms cubic-bezier(var(--motion-basic-config));
 
   /* On top of the page */
   position: fixed;
-  right: 0;
-  left: 0;
   z-index: 99;
+
+  .sbs-catalog-wrapper {
+    display: flex;
+    overflow: hidden;
+
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    height: 0em;
+    align-self: stretch;
+
+    transition: all 750ms cubic-bezier(var(--motion-entering-config));
+    transition-delay: 250ms;
+  }
+
+
+  /* Sbs menu hovered */
+  .sbs-catalog-wrapper-hovered {
+    overflow: hidden;
+    padding-top: 1em;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    height: 11.25em;
+    align-self: stretch;
+
+    transition: all 450ms cubic-bezier(var(--motion-entering-config));
+
+    .catalog-wrapper-header {
+      p {
+        opacity: 1;
+      }
+    }
+  }
 }
+
 
 header:hover {
   background-color: var(--gray-color-90);
@@ -36,6 +72,14 @@ header:hover {
 }
 
 
+.header-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 
 
 /* Configs for the logo, left side */
@@ -52,7 +96,6 @@ header:hover {
 
   /* Motion */
   transition: all 350ms cubic-bezier(var(--motion-basic-config));
-  transition-delay: ms;
 
   img {
     width: 53px;
@@ -88,7 +131,6 @@ header:hover {
     display: none;
   }
 }
-
 
 
 

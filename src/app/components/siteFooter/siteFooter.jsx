@@ -20,7 +20,7 @@ const SiteFooter = () => {
     <footer>
       <div className="left-content">
         <div className="logo-and-language-switcher-wrapper">
-          <NavLink to='/' className="logo-footer">
+          <NavLink to='/' className="logo-footer" reloadDocument>
             <img src={Logo} alt="Sagnse" />
           </NavLink>
           <div className="slogan-and-language-switcher">
@@ -39,18 +39,18 @@ const SiteFooter = () => {
         <div className="footer-nav-set">
           <p className="footer-nav-set-heading">SAGNSE</p>
           <div className="links">
-            <NavLink to='/' className='links-footer' >{t('nav.home')}</NavLink>
-            <NavLink to='/whoAreWe' className='links-footer' >{t('nav.who_are_we')}</NavLink>
-            <NavLink to='contactUs' className='links-footer'>{t('nav.contact_us')}</NavLink>
+            <NavLink to='/' className='links-footer' reloadDocument>{t('nav.home')}</NavLink>
+            <NavLink to='/whoAreWe' className='links-footer' reloadDocument>{t('nav.who_are_we')}</NavLink>
+            <NavLink to='contactUs' className='links-footer' reloadDocument>{t('nav.contact_us')}</NavLink>
           </div>
         </div>
 
         <div className="footer-nav-set">
           <p className="footer-nav-set-heading">SAGNSE BEAUTY SUPPLY</p>
           <div className="links">
-            <NavLink to='sbs/sagnseCollection' className='links-footer' >Sagnse Collection</NavLink>
-            <NavLink to='sbs/sagnseCouture' className='links-footer'>Sagnse Couture</NavLink>
-            <NavLink to='sbs/sagnseXMissJah' className='links-footer'>Sagnse X Miss Jah</NavLink>
+            <NavLink to='sbs/sagnseCollection' className='links-footer' reloadDocument>Sagnse Collection</NavLink>
+            <NavLink to='sbs/sagnseCouture' className='links-footer' reloadDocument>Sagnse Couture</NavLink>
+            <NavLink to='sbs/sagnseXMissJah' className='links-footer' reloadDocument>Sagnse X Miss Jah</NavLink>
           </div>
 
         </div>
